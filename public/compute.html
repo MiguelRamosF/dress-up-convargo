@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Convargo Compute</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="narrow-jumbotron.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills float-right">
+         <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="compute.html">Compute</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signup.html">Sign up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signin.html">Sign in</a>
+        </li>
+      </ul>
+    </nav>
+    <h3 class="text-muted">Convargo</h3>
+  </div>
+
+  <div class="jumbotron">
+    <h1 class="display-4">Compute the debit and credit price of each actors</h1>
+
+
+    <div id="trucker">
+      <label >
+        Trucker name :
+      </label></br>
+      <input class="name" type="text" placeholder="Trucker name"/> </br>
+      <label >
+        Price by km :
+      </label></br>
+      <input class="price-by-km" type="number" placeholder="Price by km"/></br>
+      <label >
+        Price by m3 :
+      </label></br>
+      <input class="price-by-cubic" type="number" placeholder="Price by m3"/></br>
+    </div>
+    <div id="shipper">
+      <label >
+        Shipper name :
+      </label></br>
+      <input class="name" type="text" placeholder="Shipper name"/></br>
+      <label >
+        Distance in km :
+      </label></br>
+      <input class="distance" type="number" placeholder="Distance in km"/></br>
+      <label >
+        Volume in m3 :
+      </label></br>
+      <input class="volume" type="number" placeholder="Volume in m3"/></br>
+      <label >
+        Deductible option :
+      </label>
+      <input class="option" type="checkbox" placeholder="Deductible option"/></br>
+    </div>
+    <button id="compute" type="button" class="btn btn-primary">Compute</button>
+    <div id="actors"></div>
+    <script src="convargo.js"></script>
+    <script src="index.js"></script>
+
+
+  </div>
+
+
+  <footer class="footer">
+    <p>&copy; Company 2017</p>
+  </footer>
+
+</div> <!-- /container -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
